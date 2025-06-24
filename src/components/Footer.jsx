@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo y descripción */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">
-              <span className="text-blue-400">Eventos</span> Especiales
+              <span className="text-blue-400">Sueños</span>&Detalles
             </h3>
             <p className="text-gray-400">
               Creando experiencias memorables con innovación y pasión desde 2010.

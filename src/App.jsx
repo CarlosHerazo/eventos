@@ -6,12 +6,12 @@ import Clientes from './Clientes';
 import Galeria from './Galeria';
 import Plano from './Plano';
 import Contacto from './Contacto';
-import Licencia from './Licencia';
 import Footer from './components/Footer';
+import { Toaster } from 'react-hot-toast';
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="min-h-screen flex flex-col bg-gray-50">
       <Navbar />
       <main className="flex-1">
         <Banner />
@@ -21,8 +21,8 @@ export default function App() {
         <Plano />
         <Contacto />
       </main>
-      <Licencia />
       <Footer />
+      <Toaster position="top-center" />
     </div>
   );
 }

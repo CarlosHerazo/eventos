@@ -5,32 +5,25 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-const events = [
-  { 
-    id: 1, 
-    image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80", 
-    title: "Convención Anual" 
+const eventos = [
+  {
+    id: 1,
+    titulo: "Gala Benéfica 2023",
+    imagen: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30",
+    descripcion: "Una noche mágica recaudando fondos para la educación"
   },
-  { 
-    id: 2, 
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80", 
-    title: "Lanzamiento de Producto" 
+  {
+    id: 2,
+    titulo: "Lanzamiento Corporativo",
+    imagen: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678",
+    descripcion: "Presentación innovadora de producto con realidad aumentada"
   },
-  { 
-    id: 3, 
-    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80", 
-    title: "Boda Elegante" 
-  },
-  { 
-    id: 4, 
-    image: "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80", 
-    title: "Conferencia Tecnológica" 
-  },
-  { 
-    id: 5, 
-    image: "https://images.unsplash.com/photo-1492681290082-e932832941e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80", 
-    title: "Fiesta Corporativa" 
-  },
+  {
+    id: 3,
+    titulo: "Boda de Ensueño",
+    imagen: "https://images.unsplash.com/photo-1519225421980-715cb0215aed",
+    descripcion: "Celebración íntima con decoración floral espectacular"
+  }
 ];
 
 export default function Galeria() {
@@ -41,9 +34,7 @@ export default function Galeria() {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Nuestros <span className="text-blue-600">Eventos</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Algunos momentos especiales que hemos creado
-          </p>
+          <div className="w-24 h-1 bg-blue-400 mx-auto"></div>
         </div>
         
         <Swiper
@@ -58,19 +49,23 @@ export default function Galeria() {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper rounded-xl shadow-xl"
+          className="mySwiper rounded-xl shadow-2xl overflow-hidden"
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            1024: { slidesPerView: 1.3 }
+          }}
         >
-          {events.map((event) => (
-            <SwiperSlide key={event.id}>
+          {eventos.map((evento) => (
+            <SwiperSlide key={evento.id}>
               <div className="relative h-96 w-full">
-                <img 
-                  src={event.image} 
-                  alt={event.title} 
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <h3 className="text-2xl font-bold text-white">{event.title}</h3>
+                <div 
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${evento.imagen})` }}
+                ></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+                  <h3 className="text-3xl font-bold mb-2">{evento.titulo}</h3>
+                  <p className="text-lg">{evento.descripcion}</p>
                 </div>
               </div>
             </SwiperSlide>

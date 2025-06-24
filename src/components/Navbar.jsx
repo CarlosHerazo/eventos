@@ -23,8 +23,9 @@ export default function Navbar() {
             className="text-2xl font-bold"
             whileHover={{ scale: 1.05 }}
           >
-            <span className="text-blue-400">Eventos</span>
-            <span className="text-white">Élite</span>
+            <span className="text-blue-400">Sueños</span>
+            <span className="text-white-400">&</span>
+            <span className="text-white">Detalles</span>
           </motion.a>
 
           {/* Desktop Menu */}

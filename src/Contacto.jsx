@@ -52,7 +52,7 @@ export default function Contacto() {
                   <FaEnvelope className="text-blue-600 mt-1 mr-3" />
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-gray-600">contacto@eventoscarlos.com</p>
+                    <p className="text-gray-600">contacto@eventos.com</p>
                   </div>
                 </div>
               </div>

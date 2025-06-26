@@ -2,20 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="/rss-style.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title><![CDATA[Eventos360 - Noticias y Lanzamientos de Eventos]]></title>
+    <title><![CDATA[Sueños y detalles - Noticias y Lanzamientos de Eventos]]></title>
     <link>https://www.eventos360.com</link>
     <description><![CDATA[Las últimas noticias, lanzamientos y herramientas para la creación y gestión de eventos en línea y presenciales.]]></description>
     <language>es-es</language>
     <copyright>Copyright © 2024 Sueños y Detalles</copyright>
-    <atom:link href="https://www.eventos360.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <image>
-      <url>https://www.eventos360.com/logo.png</url>
-      <title><![CDATA[Eventos360 - Noticias y Eventos]]></title>
-      <link>https://www.eventos360.com</link>
-    </image>
-
-    <!-- Ítems reales y simulados -->
-
     <item>
       <title><![CDATA[Lanzamiento de la nueva herramienta para crear eventos híbridos]]></title>
       <link>https://www.eventbrite.com/blog/crear-eventos-hibridos</link>

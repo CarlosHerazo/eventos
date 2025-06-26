@@ -41,7 +41,7 @@ export default function Nosotros() {
             </h3>
             
             <p className="text-gray-600 leading-relaxed">
-              En Eventos Élite, combinamos innovación, elegancia y precisión para transformar tus visiones en realidades impactantes. Cada evento es una narrativa única que diseñamos meticulosamente.
+              En Sueños&Detalles, combinamos innovación, elegancia y precisión para transformar tus visiones en realidades impactantes. Cada evento es una narrativa única que diseñamos meticulosamente.
             </p>
             
             <div className="grid grid-cols-2 gap-4">

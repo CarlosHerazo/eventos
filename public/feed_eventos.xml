@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rss-style.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[Eventos360 - Noticias y Lanzamientos de Eventos]]></title>
+    <link>https://www.eventos360.com</link>
+    <description><![CDATA[Las últimas noticias, lanzamientos y herramientas para la creación y gestión de eventos en línea y presenciales.]]></description>
+    <language>es-es</language>
+    <copyright>Copyright © 2024 Sueños y Detalles</copyright>
+    <atom:link href="https://www.eventos360.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://www.eventos360.com/logo.png</url>
+      <title><![CDATA[Eventos360 - Noticias y Eventos]]></title>
+      <link>https://www.eventos360.com</link>
+    </image>
+
+    <!-- Ítems reales y simulados -->
+
+    <item>
+      <title><![CDATA[Lanzamiento de la nueva herramienta para crear eventos híbridos]]></title>
+      <link>https://www.eventbrite.com/blog/crear-eventos-hibridos</link>
+      <description><![CDATA[Organizadores ahora pueden gestionar eventos en línea y presenciales simultáneamente desde una misma plataforma.]]></description>
+      <pubDate>Tue, 05 Mar 2024 14:00:00 GMT</pubDate>
+      <guid isPermaLink="false">Sueños y Detalles-lanzamiento-001</guid>
+      <category><![CDATA[Tecnología]]></category>
+    </item>
+
+    <item>
+      <title><![CDATA[Taller gratuito: Cómo planificar tu primer evento digital]]></title>
+      <link>https://www.tickettailor.com/blog/como-planificar-evento-digital</link>
+      <description><![CDATA[Conoce los pasos fundamentales para crear tu primer evento en línea desde cero. Incluye recursos descargables.]]></description>
+      <pubDate>Thu, 21 Mar 2024 16:30:00 GMT</pubDate>
+      <guid isPermaLink="false">Sueños y Detallestalleres-001</guid>
+      <category><![CDATA[Capacitación]]></category>
+    </item>
+
+    <item>
+      <title><![CDATA[Calendario de eventos 2024: ferias, congresos y festivales destacados]]></title>
+      <link>https://www.expodatabase.com/es/noticias/eventos-destacados-2024</link>
+      <description><![CDATA[Consulta los eventos clave del año, clasificados por industria, país y formato.]]></description>
+      <pubDate>Mon, 11 Mar 2024 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">Sueños y Detallescalendario-2024</guid>
+      <category><![CDATA[Agenda]]></category>
+    </item>
+
+    <item>
+      <title><![CDATA[5 tendencias clave en la industria de eventos para este año]]></title>
+      <link>https://www.eventmarketer.com/article/event-industry-trends-2024/</link>
+      <description><![CDATA[Desde inteligencia artificial hasta experiencias inmersivas: las principales tendencias que marcarán el futuro de los eventos.]]></description>
+      <pubDate>Wed, 14 Feb 2024 09:00:00 GMT</pubDate>
+      <guid isPermaLink="false">Sueños y Detalles-tendencias-2024</guid>
+      <category><![CDATA[Tendencias]]></category>
+    </item>
+
+    <item>
+      <title><![CDATA[Calendario de eventos Centro de convenciones]]></title>
+      <link>https://cccartagena.com/calendario-de-eventos/</link>
+      <description><![CDATA[Participa en uno de los congresos más grandes del año  y talleres intensivos.]]></description>
+      <pubDate>Fri, 01 Mar 2024 08:00:00 GMT</pubDate>
+      <guid isPermaLink="false">Sueños y Detalles-evento-008</guid>
+      <category><![CDATA[Eventos Destacados]]></category>
+    </item>
+
+  </channel>
+</rss>

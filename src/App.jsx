@@ -6,6 +6,7 @@ import Clientes from './Clientes';
 import Galeria from './Galeria';
 import Plano from './Plano';
 import Contacto from './Contacto';
+import RssSubscribe from './RssSubscribe';
 import Footer from './components/Footer';
 import { Toaster } from 'react-hot-toast';
 
@@ -20,6 +21,7 @@ export default function App() {
         <Galeria />
         <Plano />
         <Contacto />
+        <RssSubscribe />
       </main>
       <Footer />
       <Toaster position="top-center" />

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Licencia() {
   return (
     <section className="py-8 px-4 bg-gray-100 border-t border-gray-200">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaYoutube, FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
+import Licencia from '../Licencia';
 
 const Footer = () => {
   return (
@@ -123,9 +124,7 @@ const Footer = () => {
 
         {/* Derechos de autor */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Eventos Carlos. Todos los derechos reservados.
-          </p>
+          <Licencia />
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-blue-400 text-sm transition">
               Términos y condiciones

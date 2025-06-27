@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Licencia() {
   return (
-    <section className="py-8 px-4 bg-transparent border-t border-gray-200">
+    <section className="py-8 px-4 bg-transparent">
       <div className="max-w-5xl mx-auto text-center">
         <p className="text-gray-600 mb-2">
           <a
